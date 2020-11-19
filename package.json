@@ -3,36 +3,46 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.6",
-    "@testing-library/react": "^11.1.2",
-    "@testing-library/user-event": "^12.2.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.0",
-    "web-vitals": "^0.2.4"
+    "core-js": "^3.7.0",
+    "cuid": "*",
+    "date-fns": "*",
+    "firebase": "*",
+    "google-map-react": "*",
+    "history": "*",
+    "moment": "*",
+    "react": "*",
+    "react-cropper": "*",
+    "react-datepicker": "*",
+    "react-dom": "*",
+    "react-dropzone": "*",
+    "react-infinite-scroller": "*",
+    "react-lazyload": "*",
+    "react-load-script": "*",
+    "react-loadable": "*",
+    "react-places-autocomplete": "*",
+    "react-redux": "*",
+    "react-redux-firebase": "*",
+    "react-redux-toastr": "*",
+    "react-router-dom": "*",
+    "react-router-redux": "*",
+    "react-scripts": "*",
+    "redux": "*",
+    "redux-auth-wrapper": "*",
+    "redux-firestore": "*",
+    "redux-form": "*",
+    "redux-thunk": "*",
+    "revalidate": "*",
+    "semantic-ui-css": "*",
+    "semantic-ui-react": "*"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "redux-devtools-extension": "*",
+    "source-map-explorer": "^1.5.0"
   }
 }
